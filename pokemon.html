@@ -16,6 +16,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!-- bootstrap Javascript files -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Custom Javascript files -->
+  <script src="scripts/index.js"></script>
+  
 </head>
 
 <body>
@@ -27,8 +30,8 @@
         </a>
       </div>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a href="pokemon.html">Pokemon</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Pokemon</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
@@ -36,15 +39,15 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-6">
-        <h2 class="page-title">Home</h2>
-        <p class="page-content">Home of the best Pokemon</p>
-        <button class="btn">Join Now</button>
+        <h2 class="page-title">Pokemon</h2>
+        <p class="page-content">Find your perfect pokemon!</p>
+        <button class="btn" onclick="randomFetch()">Join Now</button>
       </div>
       <div class="col-sm-6"> 
-      <div class="my-image-container"> 
-        <div class="my-image"></div>
-        <!--<img src="img/undraw_relaxing_walk_mljx.svg" alt="homepage image">-->
-        
+      <div class="pokemon-window"> 
+        <div class="pokemon-image">
+          
+        </div>
       </div>
       </div>
     </div>

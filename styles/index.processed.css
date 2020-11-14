@@ -1,0 +1,95 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+body {
+  font-family: montserrat;
+  background: #ffffff;
+}
+
+.navbar-default .navbar-header .navbar-brand img {
+  max-height: 100px;
+}
+
+.navbar-default .navbar-nav li a {
+  font-weight: bold;
+  font-size: 30pt;
+  color: #083b77;
+}
+
+.navbar-default .navbar-nav li {
+  padding: 40px;
+}
+
+.navbar-default {
+  background: #ffffff;
+  /* white */
+  border: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.row .page-title {
+  font-weight: bold;
+  font-size: 60pt;
+  color: #000000;
+  /* black */
+  margin-bottom: 60px;
+}
+
+.row .page-content {
+  font-weight: bold;
+  font-size: 40pt;
+  color: #000000;
+  /* black */
+  margin-bottom: 60px;
+}
+
+.row .btn {
+  font-weight: bold;
+  font-size: 35pt;
+  color: #000000;
+  /* black */
+  background: #E8AF2C;
+  padding: 10px 30px;
+}
+
+.row {
+  padding: 100px;
+  background-image: url("../img/footer.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 200px;
+}
+
+.row .my-image-container {
+  background-color: #cccccc;
+  /* grey */
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+}
+
+.row .my-image-container .my-image {
+  background-image: url("../img/undraw_relaxing_walk_mljx.svg");
+  background-size: contain;
+  /* fill the container with the image regardless of the size */
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+}
+
+.row .pokemon-window {
+  background-color: #cccccc;
+  /* grey */
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+}
+
+.row .pokemon-window .pokemon-image {
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}
